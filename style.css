@@ -11,8 +11,9 @@
     padding-top:100px;
 }
 img{
-    width:50%;
-    height:auto;
+    width:250px;
+    height:250px;
+    /* height:auto; */
     
 }
 button{
@@ -65,8 +66,9 @@ label{
         gap:10px;
     }
     img{
-        width:50%;
-        height:auto;
+        max-width:100%;
+        
+        /* height:auto; */
         
     }
 }
@@ -78,8 +80,8 @@ label{
         gap:10px;
     }
     img{
-        width:50%;
-        height:auto;
+        max-width:100%;
+        /* height:auto; */
         
     }
 }
