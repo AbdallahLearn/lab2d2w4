@@ -18,29 +18,44 @@ img{
 button{
     padding:10px 30px;
     color:white;
-    background-color:rgb(225, 114, 114);
+    background-color:rgb(8, 0, 255);
     width:100%;
+    margin-top:20px;
+    font-weight: bold;
+    font-size: 20px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
 }
 
 input{
     padding:10px;
     font-size: larger;
-    width:93%;
+    width:100%;
     border-radius: 20px;
 }
 .container-input{
-
+    grid-column: 1 / -1;
 }
 label{
     font-size: larger;
     
 }
 .imgContainer{
+    margin-top: 100px;
     text-align: center;
     background-color: rgb(232, 232, 232);
     border-radius: 20px;
-    border:1px solid black
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+
 }
 
 @media screen and (max-width:780px){
